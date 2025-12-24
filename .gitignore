@@ -5,11 +5,11 @@
 data/
 *.session
 
-# python
-__pycache__/
-*.pyc
-*.pyo
-
 # virtualenv
 .venv/
 venv/
+
+# python
+.idea/
+**/__pycache__/
+*.pyc
